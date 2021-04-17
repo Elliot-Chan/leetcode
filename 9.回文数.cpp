@@ -7,7 +7,7 @@
 using namespace std;
 // @lc code=start
 class Solution {
-public:
+ public:
   int right(int x) { return x - (x / 10) * 10; }
   int length(int x) {
     int l = 0;
@@ -24,8 +24,7 @@ public:
     return x;
   }
   bool isPalindrome(int x) {
-    if (x < 0)
-      return false;
+    if (x < 0) return false;
     int l = length(x);
     int rg = right(x), lf = left(x, l);
     while (rg == lf && l > 0) {
@@ -38,8 +37,7 @@ public:
       l -= 2;
       rg = right(x), lf = left(x, l);
     }
-    if (l <= 1)
-      return true;
+    if (l <= 1) return true;
     return false;
   }
 };

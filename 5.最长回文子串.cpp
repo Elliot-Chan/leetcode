@@ -10,7 +10,7 @@
 using namespace std;
 // @lc code=start
 class Solution {
-public:
+ public:
   string longestPalindrome(string s) {
     // 使得序列中字符的个数始终为奇数
     vector<char> ns;

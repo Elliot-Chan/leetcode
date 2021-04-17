@@ -13,7 +13,7 @@ using namespace std;
 #include <vector>
 using namespace std;
 class Solution {
-public:
+ public:
   int tp(char c) {
     if (c == ' ')
       return 0;
