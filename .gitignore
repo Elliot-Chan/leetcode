@@ -31,3 +31,13 @@
 *.out
 *.app
 .vscode/tasks.json
+.clang-format
+output
+test_case
+.gitignore
+.gitignore
+.vscode/c_cpp_properties.json
+.gitignore
+.vscode/settings.json
+.gitignore
+.gitignore
