@@ -67,7 +67,6 @@ class Solution {
         }
         if (i != sz)
             ans += table[s[i]];
-        cout << ans << endl;
         return ans;
     }
 };
